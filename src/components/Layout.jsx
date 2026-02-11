@@ -32,10 +32,15 @@ export default function Layout({ children }) {
       <nav className="bg-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
-            {/* Logo/Brand */}
-            <div className="flex items-center">
-              <Link to="/" className="text-xl font-bold text-gray-800">
-                Gymbro
+            {/* Logo/Brand - uses favicon from public folder */}
+            <div className="flex items-center gap-2">
+              <Link to="/" className="flex items-center gap-2">
+                <img
+                  src="/favicon-32x32.png"
+                  alt="Spotter logga"
+                  className="h-8 w-8"
+                />
+                <span className="text-xl font-bold text-gray-800">Spotter</span>
               </Link>
             </div>
 

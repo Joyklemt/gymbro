@@ -67,7 +67,7 @@ export default function Home() {
       {/* Welcome Section */}
       <div className="text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Välkommen till Gymbro
+          Välkommen till Spotter
         </h1>
         <p className="text-lg text-gray-600 mb-8">
           Din personliga gymprogress-tracker
